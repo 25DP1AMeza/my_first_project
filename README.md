@@ -14,7 +14,7 @@ Biroji atrodas Ūnijas ielā 2, Rīgā.
 
 ### Mikrotīkla tehnoloģijas,[^1]
 
-Mikrotīkls ržo un veido dažādas tehnoloģijas kā:
+Mikrotīkls ražo un veido dažādas tehnoloģijas kā:
 - *Mikrotik RouterOS* programmatūru
 - *RouterBOARD* maršutētājus
 

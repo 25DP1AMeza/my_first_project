@@ -10,10 +10,13 @@ from time import sleep
     
 
 '''
-# output is not flushed here
-print('es mācos programmēt ', end='')
-print('lietoju funkciju print ', end='')
-print('ar parametru flush. ', end='')
+# output is flushed now
+print('es mācos programmēt ', end='', flush=True)
+sleep(1)
+print('lietoju funkciju print ', end='', flush=True)
+sleep(1)
+print('ar parametru flush. ', end='', flush=True)
+sleep(1)
 
 sleep(5)
 print('Bye! <(0v0)>') 

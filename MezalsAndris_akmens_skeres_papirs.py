@@ -2,6 +2,7 @@
 
 import random
 from time import sleep
+from os import system
 
 datora_izveles = ["""
     _______
@@ -59,7 +60,19 @@ papirs = """
 print("~~~~~~~~~~Akmens šķēres papīrītis!~~~~~~~~~~")
 print("Akmens = R | Šķēres = S | Papīrs = P")
 
+sleep(1)
+
+
+
+
 izvele = input("Kādu priekšmetu jūs izvēlēsieties?").upper()
+
+loading = "Loading"
+for i in range(4):
+    print(loading)
+    sleep(1)
+    system('cls')
+    loading += "."
 
 
 #spēle, ja spēlētājs izvēlas papīru

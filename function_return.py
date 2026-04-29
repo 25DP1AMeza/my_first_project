@@ -6,3 +6,5 @@ def maximum(x, y):
     else:
         return y
     
+skaitlis1 = int(input('Ievadi 1.skaitli: '))
+skaitlis2 = int(input('Ievadi 2.skaitli: '))
